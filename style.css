@@ -16,6 +16,8 @@
 
 #first-page {
     background: var(--primary-bg-color);
+    height: 100vh;
+    width: auto;
 }
 
 .navbar {
@@ -56,7 +58,7 @@ nav {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 0 10% 0 10%;
+    padding: 2% 10% 0 10%;
     width: auto;
     height: 840px;
 }
@@ -83,4 +85,56 @@ nav {
     line-height: 150%;
     color: var(--font-color);
     padding: 0 35% 0 0;
+}
+
+#second_page {
+    background: var(--secondary-bg-color);
+    height: 100vh;
+    width: auto;
+
+
+}
+
+.second_page__content {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: flex-start;
+    padding: 2% 8% 0 10%;
+    width: 1200px;
+    height: 824px;
+}
+
+.tittle__second_page {
+    font-family: var(--primary-font);
+    color: var(--font-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 100%;
+}
+
+.second_page__images {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.portraits img {
+    height: 112%;
+}
+
+.year {
+    font-family: var(--primary-font);
+    color: var(--font-color);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px 0 0 0;
+}
+
+.autor {
+    font-family: var(--primary-font);
+    color: var(--font-color);
+    font-weight: 500;
+    font-size: 26px;
 }
